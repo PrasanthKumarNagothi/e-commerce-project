@@ -165,29 +165,32 @@
         </nav>
 
         <section
-            class="h-[80dvh] px-40 py-10 grid grid-cols-2 justify-items-center items-center"
+            class="min-h-[80dvh] px-8 md:px-40 py-10 grid grid-cols-1 md:grid-cols-2 justify-items-center items-center"
         >
-            <div>
+            <div class="max-md:order-2">
                 <h1 class="text-4xl font-bold mb-4">Sip, Savor, Smile</h1>
                 <p class="text-xl mb-4">
                     Where Every Cup Tells a Story and Every Bite Sparks Joy.
                 </p>
 
-                <div>
+                <div class="flex space-x-2 md:space-x-4">
                     <a
                         href=""
-                        class="border border-blue-600 text-blue-600 font-semibold rounded px-6 py-2 inline-block"
-                        >View Menu</a
+                        class="flex-shrink-0 border border-blue-600 text-blue-600 font-semibold rounded px-6 py-2 inline-block"
                     >
+                        View Menu
+                    </a>
                     <a
                         href=""
-                        class="bg-blue-600 text-white font-semibold rounded px-6 py-2 inline-block"
-                        >Order Now</a
+                        class="flex-shrink-0 bg-blue-600 text-white font-semibold rounded px-6 py-2 inline-block"
                     >
+                        Order Now
+                    </a>
                 </div>
             </div>
 
             <lottie-player
+                class="max-md:order-1 mb-4"
                 src="./assets/hero-animation.json"
                 background="transparent"
                 speed="1"
@@ -197,37 +200,45 @@
             ></lottie-player>
         </section>
 
-        <section class="px-40 py-10">
+        <section class="px-8 md:px-40 py-10">
             <div>
-                <h1 class="text-center text-3xl font-bold">Sip Into Serenity</h1>
+                <h1 class="text-center text-3xl font-bold text-blue-500">
+                    Sip Into Serenity
+                </h1>
                 <p class="text-center">Embrace the Calm with Every Sip.</p>
             </div>
 
-            <div class="mt-6 grid grid-cols-2 justify-items-center items-center gap-8">
+            <div
+                class="mt-6 grid grid-cols-1 md:grid-cols-2 justify-items-center items-center gap-8"
+            >
                 <div class="w-9/12">
-                    <img class="rounded" src="./assets/images/about-section.jpg" alt="">
+                    <img
+                        class="rounded"
+                        src="./assets/images/about-section.jpg"
+                        alt=""
+                    />
                 </div>
 
                 <div class="text-justify">
-                    <p class="mb-4 ">
-                        Welcome to Mellow Mornings, your haven for relaxed starts
-                        and delightful flavors. We believe every morning deserves to
-                        be savored, offering locally sourced, organic ingredients in
-                        our artisanal coffee and wholesome dishes.
+                    <p class="mb-4">
+                        Welcome to Mellow Mornings, your haven for relaxed
+                        starts and delightful flavors. We believe every morning
+                        deserves to be savored, offering locally sourced,
+                        organic ingredients in our artisanal coffee and
+                        wholesome dishes.
                     </p>
                     <p>
-                        Step into our cozy space, where the aroma of freshly brewed
-                        coffee meets the warmth of community. Whether you're
-                        grabbing a quick pick-me-up or enjoying a leisurely brunch,
-                        we invite you to unwind and celebrate the beauty of slow
-                        mornings with us!
+                        Step into our cozy space, where the aroma of freshly
+                        brewed coffee meets the warmth of community. Whether
+                        you're grabbing a quick pick-me-up or enjoying a
+                        leisurely brunch, we invite you to unwind and celebrate
+                        the beauty of slow mornings with us!
                     </p>
                 </div>
-
-                
             </div>
         </section>
 
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
