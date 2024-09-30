@@ -1,0 +1,640 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Pancakes",
+        "price": 250.0,
+        "description": "Fluffy pancakes served with maple syrup, fresh berries, and a dusting of powdered sugar.",
+        "ingredients": [
+            "flour",
+            "milk",
+            "eggs",
+            "baking powder",
+            "sugar",
+            "butter",
+            "maple syrup",
+            "berries"
+        ],
+        "category": "Breakfast"
+    },
+    {
+        "id": 2,
+        "name": "Avocado Toast",
+        "price": 200.0,
+        "description": "Toasted whole grain bread topped with smashed avocado, cherry tomatoes, and a sprinkle of chili flakes.",
+        "ingredients": [
+            "whole grain bread",
+            "avocado",
+            "cherry tomatoes",
+            "chili flakes",
+            "olive oil",
+            "salt",
+            "pepper"
+        ],
+        "category": "Breakfast"
+    },
+    {
+        "id": 3,
+        "name": "Breakfast Burrito",
+        "price": 350.0,
+        "description": "A hearty burrito filled with scrambled eggs, black beans, cheese, and your choice of bacon or sausage.",
+        "ingredients": [
+            "tortilla",
+            "scrambled eggs",
+            "black beans",
+            "cheese",
+            "bacon",
+            "sausage",
+            "salsa",
+            "avocado"
+        ],
+        "category": "Breakfast"
+    },
+    {
+        "id": 4,
+        "name": "Cappuccino",
+        "price": 180.0,
+        "description": "A rich and creamy espresso drink topped with a thick layer of milk foam.",
+        "ingredients": ["espresso", "milk", "foam"],
+        "category": "Beverages"
+    },
+    {
+        "id": 5,
+        "name": "Latte",
+        "price": 200.0,
+        "description": "A smooth espresso-based coffee with steamed milk and a light layer of foam.",
+        "ingredients": ["espresso", "milk", "foam"],
+        "category": "Beverages"
+    },
+    {
+        "id": 6,
+        "name": "Iced Mocha",
+        "price": 220.0,
+        "description": "A refreshing blend of espresso, chocolate, and milk served over ice and topped with whipped cream.",
+        "ingredients": [
+            "espresso",
+            "chocolate syrup",
+            "milk",
+            "ice",
+            "whipped cream"
+        ],
+        "category": "Beverages"
+    },
+    {
+        "id": 7,
+        "name": "Veggie Wrap",
+        "price": 230.0,
+        "description": "A healthy wrap filled with fresh vegetables, hummus, and feta cheese, served with a side salad.",
+        "ingredients": [
+            "wrap",
+            "lettuce",
+            "tomato",
+            "cucumber",
+            "hummus",
+            "feta cheese",
+            "olive oil",
+            "oregano"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 8,
+        "name": "Mango Smoothie",
+        "price": 180.0,
+        "description": "A creamy and tropical smoothie made with fresh mango, yogurt, and a touch of honey.",
+        "ingredients": ["mango", "yogurt", "honey", "ice"],
+        "category": "Beverages"
+    },
+    {
+        "id": 9,
+        "name": "Blueberry Muffin",
+        "price": 120.0,
+        "description": "A soft and moist muffin loaded with fresh blueberries and a hint of lemon zest.",
+        "ingredients": [
+            "flour",
+            "sugar",
+            "blueberries",
+            "butter",
+            "eggs",
+            "lemon zest",
+            "baking powder"
+        ],
+        "category": "Snacks"
+    },
+    {
+        "id": 10,
+        "name": "Grilled Cheese Sandwich",
+        "price": 180.0,
+        "description": "Classic grilled cheese made with sharp cheddar and buttered sourdough bread, served with a side of tomato soup.",
+        "ingredients": [
+            "sourdough bread",
+            "cheddar cheese",
+            "butter",
+            "tomato soup"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 11,
+        "name": "French Toast",
+        "price": 220.0,
+        "description": "Thick slices of brioche dipped in a sweet cinnamon egg mixture and served with powdered sugar and syrup.",
+        "ingredients": [
+            "brioche",
+            "eggs",
+            "milk",
+            "cinnamon",
+            "sugar",
+            "butter",
+            "syrup"
+        ],
+        "category": "Breakfast"
+    },
+    {
+        "id": 12,
+        "name": "Matcha Latte",
+        "price": 200.0,
+        "description": "A soothing blend of matcha green tea and steamed milk, topped with a light foam.",
+        "ingredients": ["matcha powder", "milk", "foam"],
+        "category": "Beverages"
+    },
+    {
+        "id": 13,
+        "name": "Banana Nut Muffin",
+        "price": 130.0,
+        "description": "A soft muffin made with ripe bananas and crunchy walnuts, perfect for a morning treat.",
+        "ingredients": [
+            "bananas",
+            "flour",
+            "sugar",
+            "walnuts",
+            "butter",
+            "eggs",
+            "baking soda"
+        ],
+        "category": "Snacks"
+    },
+    {
+        "id": 14,
+        "name": "Caesar Salad",
+        "price": 280.0,
+        "description": "Crisp romaine lettuce tossed in Caesar dressing with croutons, Parmesan, and a lemon wedge.",
+        "ingredients": [
+            "romaine lettuce",
+            "Caesar dressing",
+            "croutons",
+            "Parmesan cheese",
+            "lemon"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 15,
+        "name": "Caramel Macchiato",
+        "price": 220.0,
+        "description": "Espresso layered with vanilla syrup and steamed milk, topped with a caramel drizzle.",
+        "ingredients": ["espresso", "vanilla syrup", "milk", "caramel"],
+        "category": "Beverages"
+    },
+    {
+        "id": 16,
+        "name": "Egg & Cheese Croissant",
+        "price": 210.0,
+        "description": "A buttery croissant filled with scrambled eggs and melted cheese.",
+        "ingredients": ["croissant", "scrambled eggs", "cheese", "butter"],
+        "category": "Breakfast"
+    },
+    {
+        "id": 17,
+        "name": "Ham & Cheese Panini",
+        "price": 300.0,
+        "description": "A hot-pressed sandwich filled with smoked ham, melted cheese, and Dijon mustard.",
+        "ingredients": ["panini bread", "ham", "cheese", "Dijon mustard"],
+        "category": "Lunch"
+    },
+    {
+        "id": 18,
+        "name": "Strawberry Banana Smoothie",
+        "price": 180.0,
+        "description": "A refreshing smoothie made with ripe strawberries, bananas, and yogurt.",
+        "ingredients": ["strawberries", "banana", "yogurt", "ice"],
+        "category": "Beverages"
+    },
+    {
+        "id": 19,
+        "name": "Tomato Basil Soup",
+        "price": 160.0,
+        "description": "A creamy and flavorful soup made with ripe tomatoes and fresh basil.",
+        "ingredients": [
+            "tomatoes",
+            "basil",
+            "onion",
+            "cream",
+            "garlic",
+            "olive oil"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 20,
+        "name": "Oatmeal Bowl",
+        "price": 150.0,
+        "description": "Warm oatmeal topped with fresh fruits, honey, and a sprinkle of cinnamon.",
+        "ingredients": [
+            "oats",
+            "milk",
+            "honey",
+            "strawberries",
+            "blueberries",
+            "cinnamon"
+        ],
+        "category": "Breakfast"
+    },
+
+    {
+        "id": 21,
+        "name": "Chicken Caesar Wrap",
+        "price": 280.0,
+        "description": "A fresh wrap filled with grilled chicken, crisp romaine lettuce, Caesar dressing, and Parmesan cheese.",
+        "ingredients": [
+            "wrap",
+            "grilled chicken",
+            "romaine lettuce",
+            "Caesar dressing",
+            "Parmesan cheese"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 22,
+        "name": "Spinach & Feta Quiche",
+        "price": 300.0,
+        "description": "A savory quiche with a flaky crust filled with spinach, feta cheese, and a creamy egg mixture.",
+        "ingredients": [
+            "pastry crust",
+            "spinach",
+            "feta cheese",
+            "eggs",
+            "milk",
+            "onions",
+            "garlic"
+        ],
+        "category": "Snacks"
+    },
+    {
+        "id": 23,
+        "name": "Mushroom Risotto",
+        "price": 400.0,
+        "description": "Creamy risotto cooked with sautéed mushrooms, garlic, and Parmesan cheese, garnished with parsley.",
+        "ingredients": [
+            "Arborio rice",
+            "mushrooms",
+            "onion",
+            "garlic",
+            "Parmesan cheese",
+            "white wine",
+            "parsley"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 24,
+        "name": "Berry Parfait",
+        "price": 180.0,
+        "description": "Layers of yogurt, fresh berries, and crunchy granola, served in a parfait glass.",
+        "ingredients": [
+            "yogurt",
+            "strawberries",
+            "blueberries",
+            "granola",
+            "honey"
+        ],
+        "category": "Breakfast"
+    },
+    {
+        "id": 25,
+        "name": "Chocolate Croissant",
+        "price": 120.0,
+        "description": "A flaky croissant filled with rich chocolate, baked to perfection.",
+        "ingredients": ["croissant dough", "chocolate", "butter"],
+        "category": "Desserts"
+    },
+    {
+        "id": 26,
+        "name": "Mango Cheesecake",
+        "price": 250.0,
+        "description": "A creamy cheesecake topped with fresh mango slices and a mango glaze.",
+        "ingredients": [
+            "cream cheese",
+            "mango",
+            "sugar",
+            "vanilla extract",
+            "butter",
+            "crust"
+        ],
+        "category": "Desserts"
+    },
+    {
+        "id": 27,
+        "name": "Eggplant Parmesan",
+        "price": 350.0,
+        "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella cheese.",
+        "ingredients": [
+            "eggplant",
+            "bread crumbs",
+            "mozzarella",
+            "marinara sauce",
+            "Parmesan cheese",
+            "basil"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 28,
+        "name": "Baked Mac & Cheese",
+        "price": 220.0,
+        "description": "A comforting bowl of pasta baked in a rich cheese sauce with a crispy topping.",
+        "ingredients": [
+            "pasta",
+            "cheddar cheese",
+            "milk",
+            "butter",
+            "flour",
+            "bread crumbs"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 29,
+        "name": "Pumpkin Spice Latte",
+        "price": 220.0,
+        "description": "A seasonal favorite made with espresso, steamed milk, and pumpkin spice flavoring.",
+        "ingredients": [
+            "espresso",
+            "pumpkin spice",
+            "milk",
+            "cinnamon",
+            "nutmeg"
+        ],
+        "category": "Beverages"
+    },
+    {
+        "id": 30,
+        "name": "Falafel Plate",
+        "price": 280.0,
+        "description": "A platter of homemade falafels served with pita bread, hummus, and a fresh salad.",
+        "ingredients": [
+            "chickpeas",
+            "herbs",
+            "onion",
+            "garlic",
+            "flour",
+            "pita bread",
+            "hummus",
+            "salad greens"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 31,
+        "name": "Hot Chocolate",
+        "price": 150.0,
+        "description": "A rich and creamy hot chocolate topped with marshmallows.",
+        "ingredients": ["milk", "cocoa powder", "sugar", "marshmallows"],
+        "category": "Beverages"
+    },
+    {
+        "id": 32,
+        "name": "Chocolate Lava Cake",
+        "price": 220.0,
+        "description": "A decadent chocolate cake with a molten center, served with vanilla ice cream.",
+        "ingredients": [
+            "dark chocolate",
+            "butter",
+            "sugar",
+            "eggs",
+            "flour",
+            "vanilla ice cream"
+        ],
+        "category": "Desserts"
+    },
+    {
+        "id": 33,
+        "name": "Chicken Salad Sandwich",
+        "price": 240.0,
+        "description": "A sandwich filled with diced chicken, celery, lettuce, and mayonnaise on whole grain bread.",
+        "ingredients": [
+            "chicken",
+            "celery",
+            "mayonnaise",
+            "lettuce",
+            "whole grain bread"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 34,
+        "name": "Mushroom & Spinach Omelette",
+        "price": 180.0,
+        "description": "A fluffy omelette filled with sautéed mushrooms, spinach, and cheese.",
+        "ingredients": ["eggs", "mushrooms", "spinach", "cheese", "butter"],
+        "category": "Breakfast"
+    },
+    {
+        "id": 35,
+        "name": "Lemon Tart",
+        "price": 160.0,
+        "description": "A tangy lemon filling in a buttery tart shell, topped with powdered sugar.",
+        "ingredients": ["lemon", "sugar", "eggs", "butter", "flour"],
+        "category": "Desserts"
+    },
+    {
+        "id": 36,
+        "name": "Carrot Cake",
+        "price": 200.0,
+        "description": "A moist cake filled with grated carrots and topped with a cream cheese frosting.",
+        "ingredients": [
+            "carrots",
+            "flour",
+            "sugar",
+            "cinnamon",
+            "eggs",
+            "cream cheese"
+        ],
+        "category": "Desserts"
+    },
+    {
+        "id": 37,
+        "name": "Strawberry Milkshake",
+        "price": 180.0,
+        "description": "A thick and creamy milkshake made with fresh strawberries, milk, and ice cream.",
+        "ingredients": ["strawberries", "milk", "vanilla ice cream"],
+        "category": "Beverages"
+    },
+    {
+        "id": 38,
+        "name": "Fruit Platter",
+        "price": 150.0,
+        "description": "An assortment of seasonal fruits served with a side of honey yogurt dip.",
+        "ingredients": ["seasonal fruits", "honey", "yogurt"],
+        "category": "Snacks"
+    },
+    {
+        "id": 39,
+        "name": "Peanut Butter Smoothie",
+        "price": 200.0,
+        "description": "A creamy blend of peanut butter, banana, and yogurt.",
+        "ingredients": ["peanut butter", "banana", "yogurt", "milk", "honey"],
+        "category": "Beverages"
+    },
+    {
+        "id": 40,
+        "name": "Spaghetti Bolognese",
+        "price": 380.0,
+        "description": "Classic spaghetti pasta served with a hearty meat sauce and Parmesan cheese.",
+        "ingredients": [
+            "spaghetti",
+            "ground beef",
+            "tomatoes",
+            "onion",
+            "garlic",
+            "Parmesan cheese",
+            "basil"
+        ],
+        "category": "Lunch"
+    },
+
+    {
+        "id": 41,
+        "name": "Veggie Pasta Salad",
+        "price": 220.0,
+        "description": "A refreshing pasta salad with a variety of seasonal vegetables, tossed in a light vinaigrette.",
+        "ingredients": [
+            "pasta",
+            "bell peppers",
+            "cucumbers",
+            "cherry tomatoes",
+            "vinaigrette",
+            "feta cheese",
+            "olives"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 42,
+        "name": "Buttermilk Waffles",
+        "price": 260.0,
+        "description": "Crispy golden waffles served with maple syrup, whipped cream, and fresh fruits.",
+        "ingredients": [
+            "flour",
+            "buttermilk",
+            "eggs",
+            "butter",
+            "sugar",
+            "baking powder",
+            "maple syrup",
+            "berries"
+        ],
+        "category": "Breakfast"
+    },
+    {
+        "id": 43,
+        "name": "Chocolate Chip Cookies",
+        "price": 100.0,
+        "description": "Soft and chewy cookies loaded with gooey chocolate chips.",
+        "ingredients": [
+            "flour",
+            "butter",
+            "sugar",
+            "chocolate chips",
+            "eggs",
+            "vanilla extract",
+            "baking soda"
+        ],
+        "category": "Desserts"
+    },
+    {
+        "id": 44,
+        "name": "Mango Lassi",
+        "price": 150.0,
+        "description": "A traditional Indian yogurt-based drink made with fresh mangoes and a touch of cardamom.",
+        "ingredients": ["mango", "yogurt", "sugar", "cardamom"],
+        "category": "Beverages"
+    },
+    {
+        "id": 45,
+        "name": "Paneer Tikka Sandwich",
+        "price": 240.0,
+        "description": "A sandwich stuffed with marinated paneer, grilled onions, and bell peppers, served on a soft bun.",
+        "ingredients": [
+            "paneer",
+            "onions",
+            "bell peppers",
+            "yogurt",
+            "spices",
+            "bun"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 46,
+        "name": "Iced Green Tea",
+        "price": 130.0,
+        "description": "A refreshing and light iced green tea infused with mint and lemon.",
+        "ingredients": ["green tea", "mint", "lemon", "ice", "honey"],
+        "category": "Beverages"
+    },
+    {
+        "id": 47,
+        "name": "Raspberry Lemonade",
+        "price": 150.0,
+        "description": "A tangy and sweet lemonade blended with fresh raspberries and served over ice.",
+        "ingredients": ["raspberries", "lemon juice", "sugar", "water", "ice"],
+        "category": "Beverages"
+    },
+    {
+        "id": 48,
+        "name": "Garlic Breadsticks",
+        "price": 120.0,
+        "description": "Warm and soft breadsticks brushed with garlic butter and topped with Parmesan.",
+        "ingredients": [
+            "flour",
+            "yeast",
+            "garlic",
+            "butter",
+            "Parmesan cheese",
+            "herbs"
+        ],
+        "category": "Snacks"
+    },
+    {
+        "id": 49,
+        "name": "Penne Alfredo",
+        "price": 350.0,
+        "description": "Penne pasta tossed in a creamy Alfredo sauce, topped with grilled chicken or mushrooms.",
+        "ingredients": [
+            "penne pasta",
+            "cream",
+            "garlic",
+            "Parmesan cheese",
+            "chicken",
+            "mushrooms",
+            "butter"
+        ],
+        "category": "Lunch"
+    },
+    {
+        "id": 50,
+        "name": "Scone with Jam & Cream",
+        "price": 160.0,
+        "description": "A classic English scone served warm with strawberry jam and clotted cream.",
+        "ingredients": [
+            "flour",
+            "butter",
+            "sugar",
+            "milk",
+            "jam",
+            "clotted cream"
+        ],
+        "category": "Snacks"
+    }
+]
